@@ -7,7 +7,7 @@ r = 200
 c = 250
 angle = (2 * math.pi)
 
-window = np.zeros((500,500,3), np.uint8)*255
+window = np.zeros((500,500,3), np.uint8)
 cv2.circle(window, (c,c), r ,(255,255,255),2)
 cv2.circle(window, (c,c), 10 ,(200,200,200),-1)
 
